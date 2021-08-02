@@ -1,10 +1,16 @@
+import React from "react";
+import TopNavBar from "./components/nav/TopNavBar";
+import SideNavBar from "./components/nav/SideNavBar";
+import AppViews from "./components/AppViews";
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <p>HealthStream Certs</p>
-    </div>
+    <>
+      <TopNavBar />
+      <SideNavBar />
+      <AppViews />
+    </>
   );
 }
 
