@@ -1,12 +1,12 @@
-import { Card } from "react-bootstrap/Card";
-import { Button } from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
 import { FaPhoneVolume } from "react-icons/fa";
 
 const PhoneUsCard = (props) => {
   return (
-    <Card>
+    <Card className="phone-card">
       <Card.Body>
-        <Card.Title>PHone Support</Card.Title>
+        <Card.Title>Phone Support</Card.Title>
         <Card.Text>
           Our phone lines are open from 8am-5pm CST to answer your
           questions.

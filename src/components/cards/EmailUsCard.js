@@ -1,10 +1,11 @@
-import { Card } from "react-bootstrap/Card";
-import { Button } from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
 import { HiOutlineMail } from "react-icons/hi";
+import "./Cards.css";
 
 const EmailUsCard = (props) => {
   return (
-    <Card>
+    <Card className="email-card">
       <Card.Body>
         <Card.Title>Email Support</Card.Title>
         <Card.Text>

@@ -1,5 +1,5 @@
 import DataManager from "../api/DataManager";
-import { Button } from "react-bootstrap/Button";
+import Button from "react-bootstrap/Button";
 
 const DeleteButton = (props) => {
   // const onClick = () => {
