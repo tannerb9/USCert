@@ -1,0 +1,21 @@
+.cert-detail-card {
+  margin-top: 20px;
+  margin-left: 250px;
+  width: 60%;
+}
+
+h2 {
+  margin-top: 100px;
+  margin-left: 250px;
+}
+
+.back-button {
+  margin-left: auto;
+  background-color: #fff;
+  color: #0081c9;
+  border: none;
+}
+
+.card-header {
+  background-color: #fff;
+}

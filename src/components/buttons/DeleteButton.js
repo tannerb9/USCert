@@ -1,14 +1,9 @@
-import DataManager from "../api/DataManager";
+// import DataManager from "../modules/DataManager";
 import Button from "react-bootstrap/Button";
+import "./Buttons.css";
 
 const DeleteButton = (props) => {
-  // const onClick = () => {
-  //   DataManager.delete(props.id)...
-
-  // open DeleteCertModal
-  // }
-
-  return <Button>Delete</Button>;
+  return <Button className="action-button">Delete</Button>;
 };
 
 export default DeleteButton;

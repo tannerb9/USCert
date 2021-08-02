@@ -1,0 +1,26 @@
+.action-button {
+  padding: 6px 16px;
+  width: 80%;
+  margin: 5px 0 5px 0;
+  /* 
+  position: absolute;
+  width: 233px;
+  height: 34px;
+  left: 1136px;
+  top: 213px; */
+
+  border-color: #fff0f5;
+  border-radius: 4px;
+  color: #c5315f !important;
+  /* font-family: Montserrat; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+}
+
+.action-button:hover {
+  background-color: #fff0f5;
+  border-color: #fff0f5;
+}

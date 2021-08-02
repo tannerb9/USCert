@@ -1,12 +1,15 @@
 import DeleteButton from "../buttons/DeleteButton";
 import EditButton from "../buttons/EditButton";
+import Card from "react-bootstrap/Card";
 
 const ActionCard = () => {
   return (
-    <>
-      <EditButton />
-      <DeleteButton />
-    </>
+    <Card className="action-card">
+      <Card.Body>
+        <EditButton />
+        <DeleteButton />
+      </Card.Body>
+    </Card>
   );
 };
 

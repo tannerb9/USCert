@@ -1,0 +1,36 @@
+.contact-card {
+  margin-top: 20px;
+  margin-left: 250px;
+  width: 60%;
+}
+
+.action-card {
+  width: 20%;
+  background: #ffffff;
+  box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email-card,
+.phone-card {
+  width: 30%;
+  background-color: #f6f8fa;
+  margin-right: 20px;
+}
+
+.card-body > button {
+  background-color: #fff;
+  color: #0081c9;
+  border: none;
+}
+
+.contact-header {
+  /* font-family: Montserrat; */
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}

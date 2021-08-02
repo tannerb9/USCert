@@ -7,6 +7,10 @@ import "./App.css";
 function App() {
   return (
     <>
+      {/* FOR FUTURE NAV ROUTING */}
+      {/* <Route render={props => <TopNavBar {...props} />} /> */}
+      {/* <Route render={props => <SideNavBar {...props} />} /> */}
+
       <TopNavBar />
       <SideNavBar />
       <AppViews />

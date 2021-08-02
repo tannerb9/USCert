@@ -1,15 +1,9 @@
-import DataManager from "../api/DataManager";
+// import DataManager from "../modules/DataManager";
 import Button from "react-bootstrap/Button";
+import "./Buttons.css";
 
 const EditButton = (props) => {
-  // const onClick = () => {
-  //   DataManager.get(props.id)
-
-  // open EditCertModal
-
-  // }
-
-  return <Button>Edit Details</Button>;
+  return <Button className="action-button">Edit Details</Button>;
 };
 
 export default EditButton;
